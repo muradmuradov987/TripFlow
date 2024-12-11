@@ -10,7 +10,7 @@
           <span class="dark:text-t-melon">Trip</span><span class="text-teal-500">Flow</span>
         </NuxtLink>
         <!--Nav links-->
-        <div
+        <div :class="{ hidden: !mobileMenu }"
           class="bg-slate-400 dark:bg-slate-800 absolute right-0 top-14  flex md:flex flex-col gap-2 p-2 md:relative md:right-auto md:top-auto top-inherit md:bg-transparent md:flex-row md:items-center md:p-0 md:gap-3.5">
           <NuxtLink to="/" class="nav__link">Home</NuxtLink>
           <NuxtLink to="/" class="nav__link">Destinations</NuxtLink>
@@ -32,8 +32,8 @@
             </div>
           </div>
           <!--Mobile menu-->
-          <iconsMenu @click="showMobileMenu" />
-          <iconsClose @click="showMobileMenu" />
+          <iconsMenu @click="showMobileMenu" class="md:hidden" :class="{ hidden: mobileMenu }" />
+          <iconsClose @click="showMobileMenu" class="md:hidden" :class="{ hidden: !mobileMenu }" />
         </div>
       </nav>
       <!--Navbar end-->
@@ -62,10 +62,10 @@ const showLangMenu = () => {
 }
 
 //Mobile Menu
-// const mobileMenu = ref(false)
-// const showMobileMenu = () => {
-//   mobileMenu.value = !mobileMenu.value
-// }
+const mobileMenu = ref(false)
+const showMobileMenu = () => {
+  mobileMenu.value = !mobileMenu.value
+}
 
 
 </script>
