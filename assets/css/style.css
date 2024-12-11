@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components  {
+    .nav__link {
+        @apply relative text-lg font-medium dark:text-teal-500 hover:text-teal-500 duration-300 after:content-[''] after:block after:w-0 after:h-[2px] after:bg-teal-500 after:transition-all after:duration-300 hover:after:w-full
+    }
+}
