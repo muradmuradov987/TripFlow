@@ -13,9 +13,10 @@
         <div :class="{ hidden: !mobileMenu }"
           class="bg-slate-400 dark:bg-slate-800 absolute right-0 top-14  flex md:flex flex-col gap-2 p-2 md:relative md:right-auto md:top-auto top-inherit md:bg-transparent md:flex-row md:items-center md:p-0 md:gap-3.5">
           <NuxtLink to="/" class="nav__link">Home</NuxtLink>
+          <NuxtLink to="/" class="nav__link">About</NuxtLink>
           <NuxtLink to="/" class="nav__link">Destinations</NuxtLink>
           <NuxtLink to="/" class="nav__link">Pricing</NuxtLink>
-          <NuxtLink to="/" class="nav__link">Reviews</NuxtLink>
+          <NuxtLink to="/" class="nav__link">Contact</NuxtLink>
         </div>
         <!--Nav items-->
         <div class="flex items-center gap-3">

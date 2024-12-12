@@ -21,7 +21,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        // gemunu: ['"Gemunu Libre", sans-serif'],
+        // raleway: ['Raleway', 'sans-serif'],
       },
       colors: {
         "t-text": "#0d213f",
