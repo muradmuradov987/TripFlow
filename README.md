@@ -1,6 +1,6 @@
 # TripFlow
 
-## Demo: https://tripflow.netlify.app
+## Demo: https://trip-flow.netlify.app
 
 ## Technology Stack:
 
