@@ -60,36 +60,36 @@
         <img src="~/assets/images/destination-1.jpg"
           class="w-full h-full object-cover group-hover:scale-110 duration-300">
         <div
-          class="absolute left-10 -bottom-28 group-hover:bottom-5 duration-300 bg-white/20 backdrop-blur w-3/4 p-3 rounded-xl">
+          class="absolute left-6 md:left-8 md:-bottom-28 group-hover:bottom-5 duration-300 bg-white/20 backdrop-blur w-3/4 p-2 md:p-3 rounded-xl">
           <p class="text-center text-white mb-2">Banff</p>
-          <p class="text-center text-white font-bold text-xl">Canada</p>
+          <p class="text-center text-white font-bold md:text-xl">Canada</p>
         </div>
       </div>
       <div class=" md:h-120 bg-slate-500 overflow-hidden rounded-2xl group relative cursor-pointer">
         <img src="~/assets/images/destination-2.jpg"
           class="w-full h-full object-cover group-hover:scale-110 duration-300">
         <div
-          class="absolute left-10 -bottom-28 group-hover:bottom-5 duration-300 bg-white/20 backdrop-blur w-3/4 p-3 rounded-xl">
+          class="absolute left-6 md:left-8 -bottom-28 group-hover:bottom-5 duration-300 bg-white/20 backdrop-blur w-3/4 p-2 md:p-3 rounded-xl">
           <p class="text-center text-white mb-2">Machu Picchu</p>
-          <p class="text-center text-white font-bold text-xl">Peru</p>
+          <p class="text-center text-white font-bold md:text-xl">Peru</p>
         </div>
       </div>
       <div class=" md:h-120 bg-slate-500 overflow-hidden rounded-2xl group relative cursor-pointer">
         <img src="~/assets/images/destination-3.jpg"
           class="w-full h-full object-cover group-hover:scale-110 duration-300">
         <div
-          class="absolute left-10 -bottom-28 group-hover:bottom-5 duration-300 bg-white/20 backdrop-blur w-3/4 p-3 rounded-xl">
+          class="absolute left-6 md:left-8 -bottom-28 group-hover:bottom-5 duration-300 bg-white/20 backdrop-blur w-3/4 p-2 md:p-3 rounded-xl">
           <p class="text-center text-white mb-2">Lauterbrunnen</p>
-          <p class="text-center text-white font-bold text-xl">Switzerland</p>
+          <p class="text-center text-white font-bold md:text-xl">Switzerland</p>
         </div>
       </div>
       <div class=" md:h-120 bg-slate-500 overflow-hidden rounded-2xl group relative cursor-pointer">
         <img src="~/assets/images/destination-4.jpg"
           class="w-full h-full object-cover group-hover:scale-110 duration-300">
         <div
-          class="absolute left-10 -bottom-28 group-hover:bottom-5 duration-300 bg-white/20 backdrop-blur w-3/4 p-3 rounded-xl">
+          class="absolute left-6 md:left-8 -bottom-28 group-hover:bottom-5 duration-300 bg-white/20 backdrop-blur w-3/4 p-2 md:p-3 rounded-xl">
           <p class="text-center text-white mb-2">Zhangjiajie</p>
-          <p class="text-center text-white font-bold text-xl">China</p>
+          <p class="text-center text-white font-bold md:text-xl">China</p>
         </div>
       </div>
     </div>
